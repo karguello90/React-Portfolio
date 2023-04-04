@@ -10,3 +10,214 @@
 .nav-list li {
   margin: 15px;
 }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #000000;
+  animation: fadeIn 2.5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}    
+}
+
+
+.header {
+  padding: 15px;
+  background-image: url(../public/Stars.gif);
+  background-size: cover;
+  color: hsl(28, 47%, 34%);
+  height: 250px;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.header img:first-child {
+  max-height: 220px;
+  border-width: 2px ;
+  float: left;
+  border:#987a5a;
+  border-color: hsl(36, 60%, 28%);
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 0px 15px 15px 0px;
+  box-shadow: 10px 5px 5px rgb(61, 3, 3);
+}
+
+.header h1 {
+  font-size: 48px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
+  display:inline-table;
+  padding-top: 40px;
+  padding-left: 30px;
+  width: 100px;
+  word-spacing: 100px;
+}
+
+.header a {
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px; 
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+.header p {
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px; 
+  margin-right: 20px;
+  color: #ffffff;
+  display:inline-table;
+}
+
+input{
+  background-color: #000000;
+  color: #ce7e28;
+  margin-right: 20px;
+  text-align: center;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 24px;
+  color: #ffffff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+a.glow, a.glow:hover, a.glow:focus
+{
+text-decoration: none;
+color: rgb(255, 255, 255);
+text-shadow: -1px 1px 8px rgb(243, 150, 0), 1px -1px 8px rgb(109, 9, 9);
+-webkit-transition: 500ms linear 0s;
+-moz-transition: 500ms linear 0s;
+-o-transition: 500ms linear 0s;
+transition: 500ms linear 0s;
+outline: 0 none;
+}
+
+.hero {
+  min-height: 220px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../public/Ferrari.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  border-radius: 0px 15px 15px 0px;
+
+}
+
+.content {
+  width: 92%;
+  height: 1700px;
+  margin-left: 50px;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  color: #8f846b;
+  margin-bottom: 5px;
+  font-size: 45px;
+  text-shadow: 5px 5px 5px rgb(27, 27, 27);
+}
+
+.about {
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-top: 5px;
+  min-height: 650px;
+  background-color: #393939;
+  border-radius: 0px 15px 15px 0px;
+  box-shadow: 10px 5px 5px rgb(46, 46, 45);
+  text-align: center;
+}
+
+.about img {
+  max-height: 380px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 10px 5px 5px rgb(28, 28, 28);
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-top: 5px;
+  min-height: 450px;
+  background-color: #393939;
+  border-radius: 0px 15px 15px 0px;
+  box-shadow: 10px 5px 5px rgb(46, 46, 45);
+}
+
+.contact img {
+  max-height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 10px 5px 5px rgb(17, 17, 17);
+}
+
+#Github {
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-top: 5px;
+  min-height: 500px;
+  background-color: #393939;
+  border-radius: 0px 15px 15px 0px;
+  box-shadow: 10px 5px 5px rgb(46, 46, 45);
+  text-align: center;
+}
+
+img {
+  height: 380px;
+  width: 100%;
+  padding: 7px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: 10px 5px 5px rgb(46, 46, 45);
+  max-width: 260px;
+  display: inline-table;
+  text-align: center;
+}
+
+.contact li {
+  color:hsl(28, 53%, 51%);
+  display: inline-block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: #ffffff;
+}
+
+.footer h3 {
+  font-size: 20px;
+}
+
+
+
+

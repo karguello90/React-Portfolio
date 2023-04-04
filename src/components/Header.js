@@ -4,7 +4,10 @@ import Navbar from './Navbar';
 function Header() {
   return (
    <div>
-    <h2>This is the Header</h2>
+    <section className="header">
+        <img src="./Leo.jpg"></img> 
+        <h1>ARGUELLO CREATIONS</h1>  
+    </section>
     <Navbar/>
    </div>
   );

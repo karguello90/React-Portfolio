@@ -4,10 +4,10 @@ function Home() {
   return (
    <div>
     <div id="about" className="about">
-        <h2>About&#9749;</h2>
-        <img src="./Assets/images/Study2.jpg" className="float-left" alt="Modern laptop and hot coffee on clean desk"/>
+        <h2>About</h2>
+        <img src="/Study2.jpg"></img>
         <p>
-            Husband and father of two, avid car and tech enthusiast.
+            Husband and father of two, avid movie buff.
         </p>
         <p>
             Versed in mobile phone operating systems.
@@ -16,7 +16,7 @@ function Home() {
             Currently attending the UCF Coding boot camp - Full Stack developer course.
         </p>
         <p>
-           Also, I love coffee.
+           Also, I love cars and coffee. &#9749;
         </p>
     </div>
    </div>

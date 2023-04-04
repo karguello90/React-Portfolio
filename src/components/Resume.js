@@ -3,7 +3,7 @@ import React from 'react';
 function Resume() {
   return (
    <div>
-    <h2>This is the Resume section</h2>
+    <img src={"./UI UX Resume.jpg"}></img>
    </div>
   );
 }
