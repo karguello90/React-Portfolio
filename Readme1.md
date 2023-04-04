@@ -22,7 +22,7 @@ The user will then open a terminal in VS Code, run npm i command to install all 
 The user will be shown a localhost:3000 page that will launch a live webpage displaying my portfolio.
 
 ## Usage:
-The portfolio will display a header page, a navbar will usable link that can be used to navigate the portfolio's pages. Their is also a contact, and resume page.
+The portfolio will display a header page, a navbar with usable links that can be used to navigate the portfolio's pages. There is also a contact, and resume page.
 
 ## Contribution:
 N/A
