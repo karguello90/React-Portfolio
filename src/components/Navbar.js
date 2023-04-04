@@ -11,7 +11,7 @@ function Navbar() {
     </li>
     <li>
         <Link to = "/portfolio">
-        Portfolio
+        <div id="glow" className="glow"><p>Portfolio</p></div>
         </Link>
     </li>
     <li>

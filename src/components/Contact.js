@@ -5,10 +5,10 @@ function Contact() {
   return (
   <div>
     <div id="contact" className="contact">
-        <div id="contact" className="contacts">
+        <div id="contact" className="contact">
         <h2>Contact&#128232;</h2>
         
-        <img src="./Contact.jpg"></img>
+        <img src="./Contact.jpg" className="contact"></img>
         <p></p>
         <li>
             <strong>Email:</strong> <a href="mailto:karguello90@gmail.com?subject = Hi&body = Message" className="glow">KARGUELLO90@GMAIL.COM</a>

@@ -8,7 +8,11 @@
   justify-content: flex-end;
 }
 .nav-list li {
-  margin: 15px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
 }
 
 * {
@@ -32,9 +36,10 @@ body {
   padding: 15px;
   background-image: url(../public/Stars.gif);
   background-size: cover;
-  color: hsl(28, 47%, 34%);
+  color: hsl(0, 0%, 100%);
   height: 250px;
   border-radius: 0px 15px 15px 0px;
+
 }
 
 .header img:first-child {
@@ -95,7 +100,7 @@ p {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 
-a.glow, a.glow:hover, a.glow:focus
+.glow p.glow, p.glow:hover, p.glow:focus
 {
 text-decoration: none;
 color: rgb(255, 255, 255);
@@ -156,7 +161,7 @@ h2 {
   box-shadow: 10px 5px 5px rgb(28, 28, 28);
 }
 
-.contact {
+#contact {
   text-align: center;
   margin-bottom: 20px;
   padding-left: 15px;
@@ -167,7 +172,7 @@ h2 {
   box-shadow: 10px 5px 5px rgb(46, 46, 45);
 }
 
-.contact img {
+#contact img {
   max-height: 300px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -175,7 +180,14 @@ h2 {
   box-shadow: 10px 5px 5px rgb(17, 17, 17);
 }
 
-#Github {
+.contact li {
+  color:hsl(28, 53%, 51%);
+  display: inline-block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+}
+
+#github {
   margin-bottom: 20px;
   padding-left: 15px;
   padding-top: 5px;
@@ -186,7 +198,7 @@ h2 {
   text-align: center;
 }
 
-img {
+#github img {
   height: 380px;
   width: 100%;
   padding: 7px;
@@ -199,11 +211,17 @@ img {
   text-align: center;
 }
 
-.contact li {
-  color:hsl(28, 53%, 51%);
-  display: inline-block;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 18px;
+#github a:link {
+  height: 380px;
+  width: 100%;
+  padding: 7px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: 10px 5px 5px rgb(46, 46, 45);
+  max-width: 260px;
+  display: inline-table;
+  text-align: center;
 }
 
 .footer {
