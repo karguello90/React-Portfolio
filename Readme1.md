@@ -16,6 +16,8 @@ This Portfolio has been created to show potential employers my current work and 
 
 The portfolio consists of React components and general styling.
 
+The deployed portfolio can be found here: https://blooming-journey-38163.herokuapp.com/
+
 ## Installation:
 To install the app, the user will download the repo to their local storage. 
 The user will then open a terminal in VS Code, run npm i command to install all necessary files, then run npm start. 
